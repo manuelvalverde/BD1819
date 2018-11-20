@@ -50,5 +50,12 @@ create table vigia
 
 create table eventoemergencia
 	(num_telefone numeric(15,0) not null,
-	
-	 )
+	 instante_chamada timestamp not null,
+	 nome_pessoa varchar(80) not null, 
+	 morada_local varchar(255) not null,
+	 num_processo_socorro smallint not null,
+	 constraint pk_eventoemergencia primary key (num_telefone, instante_chamada),
+	 constraint fk_eventoemergencia_morada foreign key(morada_local) references local(morada_local),
+	 constraint fk_eventoemergencia_processo foreign key(num_processo_socorro) references processosocorro(num_processo_socorro),
+	 constraint unique_caller unique(num_telefone, nome_pessoa));
+
