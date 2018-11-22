@@ -63,11 +63,11 @@ create table processosocorro       --(RI) tem de se meter restricao aqui
 	(num_processo_socorro smallint not null unique,
 	 constraint pk_processosocorro primary key(num_processo_socorro));
 
-create table entidademeio
+create table entidademeio  --inserted
 	(nome_entidade varchar(80) not null unique,
 	 constraint pk_entidademeio primary key(nome_entidade));
 
-create table meio
+create table meio 
 	(num_meio smallint not null,
 	 nome_meio varchar(80) not null,
 	 nome_entidade varchar(80) not null,
