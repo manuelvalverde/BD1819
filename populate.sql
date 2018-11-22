@@ -1,3 +1,4 @@
+insert into camara values (0);
 insert into camara values (1);
 insert into camara values (2);
 insert into camara values (3);
@@ -97,7 +98,213 @@ insert into camara values (96);
 insert into camara values (97);
 insert into camara values (98);
 insert into camara values (99);
-insert into camara values (100);
+
+--ACERTAR HORAS---------------------------------------------------------------------------
+
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-07 20:59:12', '2018-09-07 21:21:31', 0);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-07-07 20:17:57', '2018-07-07 21:21:47', 1);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-07-01 20:18:16', '2018-07-01 21:10:02', 2);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-08 20:59:47', '2018-08-08 21:13:10', 3);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-21 20:57:55', '2018-06-21 21:45:18', 4);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-08 20:34:23', '2018-08-08 21:06:03', 5);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-13 20:33:53', '2018-06-13 21:41:56', 6);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-04 20:02:00', '2018-06-04 21:39:15', 7);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-07-02 20:45:26', '2018-07-02 21:24:49', 8);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-07-03 20:26:32', '2018-07-03 21:18:06', 9);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-18 20:09:43', '2018-06-18 21:19:42', 10);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-07-02 20:01:11', '2018-07-02 21:37:05', 11);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-08 20:02:10', '2018-06-08 21:18:31', 12);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-05 20:30:46', '2018-09-05 21:20:33', 13);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-09 20:30:07', '2018-08-09 21:12:03', 14);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-25 20:03:04', '2018-06-25 21:33:26', 15);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-24 20:42:59', '2018-09-24 21:05:39', 16);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-17 20:47:12', '2018-06-17 21:38:33', 17);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-02 20:00:46', '2018-09-02 21:43:55', 18);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-08 20:10:21', '2018-09-06 21:49:16', 19);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-04 20:55:16', '2018-06-03 21:02:05', 20); //
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-07 20:11:56', '2018-07-09 21:17:52', 21);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-04 20:00:26', '2018-07-09 21:42:08', 22);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-07-08 20:23:42', '2018-08-04 21:14:33', 23);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-04 20:07:49', '2018-06-03 21:00:47', 24);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-09 20:27:18', '2018-06-03 21:20:40', 25);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-05 20:54:16', '2018-06-03 21:43:20', 26);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-04 20:32:54', '2018-08-07 21:53:59', 27);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-01 20:52:30', '2018-08-00 21:52:50', 28);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-02 20:46:51', '2018-06-00 21:05:11', 29);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-07-07 20:35:33', '2018-06-02 21:11:04', 30);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-03 20:09:31', '2018-09-04 21:51:11', 31);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-04 20:50:19', '2018-08-06 21:41:30', 32);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-06 20:35:37', '2018-07-07 21:06:52', 33);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-06 20:41:42', '2018-08-01 21:01:39', 34);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-00 20:59:12', '2018-06-08 21:55:03', 35);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-07 20:12:35', '2018-06-09 21:34:03', 36);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-00 20:39:47', '2018-06-09 21:49:43', 37);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-00 20:11:50', '2018-09-09 21:43:14', 38);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-08 20:48:23', '2018-09-09 21:38:23', 39);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-05 20:46:29', '2018-06-00 21:53:11', 40);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-02 20:02:31', '2018-09-09 21:27:14', 41);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-05 20:54:31', '2018-08-07 21:17:07', 42);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-07-05 20:00:27', '2018-09-03 21:38:32', 43);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-07-07 20:21:02', '2018-08-03 21:07:48', 44);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-04 20:27:58', '2018-09-01 21:04:12', 45);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-07-04 20:07:35', '2018-06-06 21:10:14', 46);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-05 20:12:09', '2018-09-06 21:48:55', 47);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-04 20:51:44', '2018-07-01 21:05:11', 48);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-07 20:58:32', '2018-07-05 21:14:25', 49);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-02 20:32:26', '2018-07-07 21:00:35', 50);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-06 20:23:36', '2018-08-03 21:38:17', 51);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-05 20:46:00', '2018-06-05 21:30:26', 52);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-07-09 20:54:10', '2018-09-07 21:38:48', 53);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-07-02 20:32:08', '2018-06-05 21:09:19', 54);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-03 20:30:10', '2018-06-01 21:32:56', 55);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-06 20:24:03', '2018-07-06 21:21:17', 56);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-07-04 20:00:33', '2018-08-00 21:09:02', 57);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-06 20:28:35', '2018-08-04 21:29:39', 58);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-07 20:09:23', '2018-06-07 21:41:32', 59);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-07-05 20:47:50', '2018-09-06 21:06:44', 60);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-01 20:09:04', '2018-07-05 21:04:43', 61);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-06 20:00:24', '2018-07-02 21:02:03', 62);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-00 20:07:14', '2018-07-05 21:12:26', 63);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-07-07 20:00:16', '2018-09-02 21:55:28', 64);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-07-09 20:52:42', '2018-06-03 21:50:11', 65);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-09 20:57:16', '2018-09-01 21:12:12', 66);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-05 20:44:39', '2018-06-07 21:30:04', 67);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-07-05 20:48:13', '2018-09-09 21:59:25', 68);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-03 20:43:25', '2018-09-04 21:58:43', 69);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-06 20:31:11', '2018-08-01 21:01:47', 70);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-09 20:13:03', '2018-09-02 21:50:59', 71);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-08 20:53:53', '2018-09-09 21:06:25', 72);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-00 20:51:59', '2018-07-01 21:58:24', 73);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-07-02 20:48:33', '2018-07-06 21:15:13', 74);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-07-02 20:26:07', '2018-06-05 21:37:19', 75);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-08 20:12:21', '2018-08-03 21:21:54', 76);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-03 20:00:21', '2018-06-09 21:35:24', 77);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-02 20:55:12', '2018-06-09 21:59:55', 78);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-05 20:14:14', '2018-06-00 21:06:12', 79);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-05 20:18:46', '2018-08-04 21:40:12', 80);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-08 20:10:38', '2018-08-09 21:08:22', 81);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-06 20:13:23', '2018-07-03 21:53:38', 82);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-07-09 20:18:31', '2018-07-02 21:16:33', 83);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-02 20:04:28', '2018-09-07 21:23:37', 84);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-08 20:25:36', '2018-06-02 21:35:11', 85);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-08 20:41:07', '2018-06-02 21:54:50', 86);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-07-02 20:03:42', '2018-06-09 21:47:09', 87);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-06 20:04:29', '2018-08-04 21:20:54', 88);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-08 20:08:31', '2018-07-04 21:00:01', 89);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-05 20:24:46', '2018-08-05 21:34:29', 90);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-07-02 20:19:19', '2018-08-01 21:52:50', 91);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-09-07 20:18:44', '2018-07-03 21:57:24', 92);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-07-02 20:12:16', '2018-08-02 21:27:32', 93);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-01 20:56:28', '2018-08-07 21:47:20', 94);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-09 20:57:38', '2018-06-07 21:38:42', 95);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-08 20:42:19', '2018-09-09 21:02:39', 96);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-08-00 20:30:07', '2018-09-05 21:24:00', 97);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-07 20:55:31', '2018-07-08 21:38:20', 98);
+insert into video (data_hora_inicio,data_hora_fim,num_camera) values ('2018-06-09 20:24:13', '2018-08-05 21:24:57', 99);
+
+
+--ACERTAR DURACAO, INICIO-----------------
+
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (0, '00:18:15', '2018-09-07 20:59:12', 0);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (1, '00:32:14', '2018-00-00 00:00:00', 1);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (2, '00:14:38', '2018-00-00 00:00:00', 2);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (3, '00:53:25', '2018-00-00 00:00:00', 3);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (4, '00:36:34', '2018-00-00 00:00:00', 4);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (5, '00:03:33', '2018-00-00 00:00:00', 5);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (6, '00:03:21', '2018-00-00 00:00:00', 6);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (7, '00:06:08', '2018-00-00 00:00:00', 7);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (8, '00:51:51', '2018-00-00 00:00:00', 8);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (9, '00:55:21', '2018-00-00 00:00:00', 9);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (10, '00:18:27', '2018-00-00 00:00:00', 10);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (11, '00:35:54', '2018-00-00 00:00:00', 11);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (12, '00:58:38', '2018-00-00 00:00:00', 12);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (13, '00:05:05', '2018-00-00 00:00:00', 13);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (14, '00:27:12', '2018-00-00 00:00:00', 14);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (15, '00:12:38', '2018-00-00 00:00:00', 15);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (16, '00:14:38', '2018-00-00 00:00:00', 16);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (17, '00:14:37', '2018-00-00 00:00:00', 17);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (18, '00:23:35', '2018-00-00 00:00:00', 18);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (19, '00:25:18', '2018-00-00 00:00:00', 19);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (20, '00:29:08', '2018-00-00 00:00:00', 20);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (21, '00:31:54', '2018-00-00 00:00:00', 21);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (22, '00:54:41', '2018-00-00 00:00:00', 22);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (23, '00:55:59', '2018-00-00 00:00:00', 23);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (24, '00:00:48', '2018-00-00 00:00:00', 24);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (25, '00:26:08', '2018-00-00 00:00:00', 25);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (26, '00:45:49', '2018-00-00 00:00:00', 26);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (27, '00:10:53', '2018-00-00 00:00:00', 27);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (28, '00:37:43', '2018-00-00 00:00:00', 28);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (29, '00:11:18', '2018-00-00 00:00:00', 29);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (30, '00:41:09', '2018-00-00 00:00:00', 30);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (31, '00:30:27', '2018-00-00 00:00:00', 31);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (32, '00:48:58', '2018-00-00 00:00:00', 32);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (33, '00:30:52', '2018-00-00 00:00:00', 33);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (34, '00:04:19', '2018-00-00 00:00:00', 34);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (35, '00:35:38', '2018-00-00 00:00:00', 35);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (36, '00:33:52', '2018-00-00 00:00:00', 36);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (37, '00:47:08', '2018-00-00 00:00:00', 37);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (38, '00:13:24', '2018-00-00 00:00:00', 38);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (39, '00:11:00', '2018-00-00 00:00:00', 39);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (40, '00:48:32', '2018-00-00 00:00:00', 40);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (41, '00:04:46', '2018-00-00 00:00:00', 41);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (42, '00:00:16', '2018-00-00 00:00:00', 42);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (43, '00:51:14', '2018-00-00 00:00:00', 43);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (44, '00:10:58', '2018-00-00 00:00:00', 44);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (45, '00:47:10', '2018-00-00 00:00:00', 45);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (46, '00:41:52', '2018-00-00 00:00:00', 46);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (47, '00:06:42', '2018-00-00 00:00:00', 47);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (48, '00:04:24', '2018-00-00 00:00:00', 48);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (49, '00:31:17', '2018-00-00 00:00:00', 49);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (50, '00:38:29', '2018-00-00 00:00:00', 50);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (51, '00:01:01', '2018-00-00 00:00:00', 51);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (52, '00:45:46', '2018-00-00 00:00:00', 52);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (53, '00:59:01', '2018-00-00 00:00:00', 53);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (54, '00:59:04', '2018-00-00 00:00:00', 54);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (55, '00:14:41', '2018-00-00 00:00:00', 55);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (56, '00:58:48', '2018-00-00 00:00:00', 56);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (57, '00:22:48', '2018-00-00 00:00:00', 57);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (58, '00:30:12', '2018-00-00 00:00:00', 58);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (59, '00:14:48', '2018-00-00 00:00:00', 59);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (60, '00:41:43', '2018-00-00 00:00:00', 60);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (61, '00:04:51', '2018-00-00 00:00:00', 61);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (62, '00:13:02', '2018-00-00 00:00:00', 62);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (63, '00:07:45', '2018-00-00 00:00:00', 63);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (64, '00:44:44', '2018-00-00 00:00:00', 64);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (65, '00:45:02', '2018-00-00 00:00:00', 65);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (66, '00:34:32', '2018-00-00 00:00:00', 66);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (67, '00:23:06', '2018-00-00 00:00:00', 67);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (68, '00:44:55', '2018-00-00 00:00:00', 68);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (69, '00:05:57', '2018-00-00 00:00:00', 69);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (70, '00:43:48', '2018-00-00 00:00:00', 70);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (71, '00:44:44', '2018-00-00 00:00:00', 71);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (72, '00:10:21', '2018-00-00 00:00:00', 72);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (73, '00:21:03', '2018-00-00 00:00:00', 73);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (74, '00:22:54', '2018-00-00 00:00:00', 74);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (75, '00:58:25', '2018-00-00 00:00:00', 75);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (76, '00:52:51', '2018-00-00 00:00:00', 76);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (77, '00:23:00', '2018-00-00 00:00:00', 77);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (78, '00:27:18', '2018-00-00 00:00:00', 78);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (79, '00:14:51', '2018-00-00 00:00:00', 79);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (80, '00:21:52', '2018-00-00 00:00:00', 80);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (81, '00:23:07', '2018-00-00 00:00:00', 81);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (82, '00:55:45', '2018-00-00 00:00:00', 82);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (83, '00:58:52', '2018-00-00 00:00:00', 83);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (84, '00:21:33', '2018-00-00 00:00:00', 84);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (85, '00:41:15', '2018-00-00 00:00:00', 85);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (86, '00:42:32', '2018-00-00 00:00:00', 86);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (87, '00:59:56', '2018-00-00 00:00:00', 87);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (88, '00:36:30', '2018-00-00 00:00:00', 88);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (89, '00:25:35', '2018-00-00 00:00:00', 89);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (90, '00:27:07', '2018-00-00 00:00:00', 90);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (91, '00:27:15', '2018-00-00 00:00:00', 91);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (92, '00:51:36', '2018-00-00 00:00:00', 92);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (93, '00:37:46', '2018-00-00 00:00:00', 93);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (94, '00:56:30', '2018-00-00 00:00:00', 94);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (95, '00:06:41', '2018-00-00 00:00:00', 95);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (96, '00:58:26', '2018-00-00 00:00:00', 96);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (97, '00:19:01', '2018-00-00 00:00:00', 97);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (98, '00:41:31', '2018-00-00 00:00:00', 98);
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camera) values (99, '00:26:27', '2018-00-00 00:00:00', 99);
 
 insert into local values ('Lisboa');
 insert into local values ('Sintra');
@@ -237,7 +444,7 @@ insert into vigia values ('Penafiel', 34);
 insert into vigia values ('Santo Tirso', 35);
 insert into vigia values ('Loule', 36);
 insert into vigia values ('Ponta Delgada', 37);
-insert into vigia values ('Oliveira de Azemeis', 38);
+insert into vigia values ('Oliveira do Hospital', 38);
 insert into vigia values ('Moita', 39);
 insert into vigia values ('Faro', 40);
 insert into vigia values ('Povoa de Varzim', 41);
@@ -279,7 +486,7 @@ insert into vigia values ('Silves', 76);
 insert into vigia values ('Torres Novas', 77);
 insert into vigia values ('Cantanhede', 78);
 insert into vigia values ('Beja', 79);
-insert into vigia values ('Câmara de Lobos', 80);
+insert into vigia values ('Monchique', 80);
 insert into vigia values ('Angra do Heroismo', 81);
 insert into vigia values ('Braganca', 82);
 insert into vigia values ('Esposende', 83);
@@ -301,207 +508,209 @@ insert into vigia values ('Portalegre', 98);
 insert into vigia values ('Seia', 99);
 insert into vigia values ('Cartaxo', 100);
 
-insert into video values ('2018-07-18 13:50:00', '2018-07-18 16:20:00', 1);
-insert into video values ('2018-01- ::', '2018-- ::', )
-insert into video values ('2018-01- ::', '2018-- ::', )
-insert into video values ('2018-01- ::', '2018-- ::', )
-insert into video values ('2018-01- ::', '2018-- ::', )
-insert into video values ('2018-01- ::', '2018-- ::', )
-insert into video values ('2018-01- ::', '2018-- ::', )
-insert into video values ('2018-01- ::', '2018-- ::', )
-insert into video values ('2018-02- ::', '2018-- ::', )
-insert into video values ('2018-02- ::', '2018-- ::', )
-insert into video values ('2018-02- ::', '2018-- ::', )
-insert into video values ('2018-02- ::', '2018-- ::', )
-insert into video values ('2018-02- ::', '2018-- ::', )
-insert into video values ('2018-02- ::', '2018-- ::', )
-insert into video values ('2018-02- ::', '2018-- ::', )
-insert into video values ('2018-03- ::', '2018-- ::', )
-insert into video values ('2018-03- ::', '2018-- ::', )
-insert into video values ('2018-03- ::', '2018-- ::', )
-insert into video values ('2018-03- ::', '2018-- ::', )
-insert into video values ('2018-03- ::', '2018-- ::', )
-insert into video values ('2018-03- ::', '2018-- ::', )
-insert into video values ('2018-03- ::', '2018-- ::', )
-insert into video values ('2018-04- ::', '2018-- ::', )
-insert into video values ('2018-04- ::', '2018-- ::', )
-insert into video values ('2018-04- ::', '2018-- ::', )
-insert into video values ('2018-04- ::', '2018-- ::', )
-insert into video values ('2018-04- ::', '2018-- ::', )
-insert into video values ('2018-04- ::', '2018-- ::', )
-insert into video values ('2018-04- ::', '2018-- ::', )
-insert into video values ('2018-05- ::', '2018-- ::', )
-insert into video values ('2018-05- ::', '2018-- ::', )
-insert into video values ('2018-05- ::', '2018-- ::', )
-insert into video values ('2018-05- ::', '2018-- ::', )
-insert into video values ('2018-05- ::', '2018-- ::', )
-insert into video values ('2018-05- ::', '2018-- ::', )
-insert into video values ('2018-05- ::', '2018-- ::', )
-insert into video values ('2018-05- ::', '2018-- ::', )
-insert into video values ('2018-06- ::', '2018-- ::', )
-insert into video values ('2018-06- ::', '2018-- ::', )
-insert into video values ('2018-06- ::', '2018-- ::', )
-insert into video values ('2018-06- ::', '2018-- ::', )
-insert into video values ('2018-06- ::', '2018-- ::', )
-insert into video values ('2018-06- ::', '2018-- ::', )
-insert into video values ('2018-06- ::', '2018-- ::', )
-insert into video values ('2018-06- ::', '2018-- ::', )
-insert into video values ('2018-06- ::', '2018-- ::', )
-insert into video values ('2018-06- ::', '2018-- ::', )
-insert into video values ('2018-07- ::', '2018-- ::', )
-insert into video values ('2018-07- ::', '2018-- ::', )
-insert into video values ('2018-07- ::', '2018-- ::', )
-insert into video values ('2018-07- ::', '2018-- ::', )
-insert into video values ('2018-07- ::', '2018-- ::', )
-insert into video values ('2018-07- ::', '2018-- ::', )
-insert into video values ('2018-07- ::', '2018-- ::', )
-insert into video values ('2018-07- ::', '2018-- ::', )
-insert into video values ('2018-07- ::', '2018-- ::', )
-insert into video values ('2018-07- ::', '2018-- ::', )
-insert into video values ('2018-08- ::', '2018-- ::', )
-insert into video values ('2018-08- ::', '2018-- ::', )
-insert into video values ('2018-08- ::', '2018-- ::', )
-insert into video values ('2018-08- ::', '2018-- ::', )
-insert into video values ('2018-08- ::', '2018-- ::', )
-insert into video values ('2018-08- ::', '2018-- ::', )
-insert into video values ('2018-08- ::', '2018-- ::', )
-insert into video values ('2018-08- ::', '2018-- ::', )
-insert into video values ('2018-08- ::', '2018-- ::', )
-insert into video values ('2018-08- ::', '2018-- ::', )
-insert into video values ('2018-09- ::', '2018-- ::', )
-insert into video values ('2018-09- ::', '2018-- ::', )
-insert into video values ('2018-09- ::', '2018-- ::', )
-insert into video values ('2018-09- ::', '2018-- ::', )
-insert into video values ('2018-09- ::', '2018-- ::', )
-insert into video values ('2018-09- ::', '2018-- ::', )
-insert into video values ('2018-09- ::', '2018-- ::', )
-insert into video values ('2018-09- ::', '2018-- ::', )
-insert into video values ('2018-09- ::', '2018-- ::', )
-insert into video values ('2018-09- ::', '2018-- ::', )
-insert into video values ('2018-10- ::', '2018-- ::', )
-insert into video values ('2018-10- ::', '2018-- ::', )
-insert into video values ('2018-10- ::', '2018-- ::', )
-insert into video values ('2018-10- ::', '2018-- ::', )
-insert into video values ('2018-10- ::', '2018-- ::', )
-insert into video values ('2018-10- ::', '2018-- ::', )
-insert into video values ('2018-10- ::', '2018-- ::', )
-insert into video values ('2018-10- ::', '2018-- ::', )
-insert into video values ('2018-11- ::', '2018-- ::', )
-insert into video values ('2018-11- ::', '2018-- ::', )
-insert into video values ('2018-11- ::', '2018-- ::', )
-insert into video values ('2018-11- ::', '2018-- ::', )
-insert into video values ('2018-11- ::', '2018-- ::', )
-insert into video values ('2018-11- ::', '2018-- ::', )
-insert into video values ('2018-11- ::', '2018-- ::', )
-insert into video values ('2018-11- ::', '2018-- ::', )
-insert into video values ('2018-12- ::', '2018-- ::', )
-insert into video values ('2018-12- ::', '2018-- ::', )
-insert into video values ('2018-12- ::', '2018-- ::', )
-insert into video values ('2018-12- ::', '2018-- ::', )
-insert into video values ('2018-12- ::', '2018-- ::', )
-insert into video values ('2018-12- ::', '2018-- ::', )
-insert into video values ('2018-12- ::', '2018-- ::', )
+--ACERTAR DATA, NUMERO PROCESSO
 
-insert into segmentovideo values (1, '00:00:45', '2018-07-18 13:50:00', 1);
-insert into segmentovideo values (2, , '2018-- ::', );
-insert into segmentovideo values (3, , '2018-- ::', );
-insert into segmentovideo values (4, , '2018-- ::', );
-insert into segmentovideo values (5, , '2018-- ::', );
-insert into segmentovideo values (6, , '2018-- ::', );
-insert into segmentovideo values (7, , '2018-- ::', );
-insert into segmentovideo values (8, , '2018-- ::', );
-insert into segmentovideo values (9, , '2018-- ::', );
-insert into segmentovideo values (10, , '2018-- ::', );
-insert into segmentovideo values (11, , '2018-- ::', );
-insert into segmentovideo values (12, , '2018-- ::', );
-insert into segmentovideo values (13, , '2018-- ::', );
-insert into segmentovideo values (14, , '2018-- ::', );
-insert into segmentovideo values (15, , '2018-- ::', );
-insert into segmentovideo values (16, , '2018-- ::', );
-insert into segmentovideo values (17, , '2018-- ::', );
-insert into segmentovideo values (18, , '2018-- ::', );
-insert into segmentovideo values (19, , '2018-- ::', );
-insert into segmentovideo values (20, , '2018-- ::', );
-insert into segmentovideo values (21, , '2018-- ::', );
-insert into segmentovideo values (22, , '2018-- ::', );
-insert into segmentovideo values (23, , '2018-- ::', );
-insert into segmentovideo values (24, , '2018-- ::', );
-insert into segmentovideo values (25, , '2018-- ::', );
-insert into segmentovideo values (26, , '2018-- ::', );
-insert into segmentovideo values (27, , '2018-- ::', );
-insert into segmentovideo values (28, , '2018-- ::', );
-insert into segmentovideo values (29, , '2018-- ::', );
-insert into segmentovideo values (30, , '2018-- ::', );
-insert into segmentovideo values (31, , '2018-- ::', );
-insert into segmentovideo values (32, , '2018-- ::', );
-insert into segmentovideo values (33, , '2018-- ::', );
-insert into segmentovideo values (34, , '2018-- ::', );
-insert into segmentovideo values (35, , '2018-- ::', );
-insert into segmentovideo values (36, , '2018-- ::', );
-insert into segmentovideo values (37, , '2018-- ::', );
-insert into segmentovideo values (38, , '2018-- ::', );
-insert into segmentovideo values (39, , '2018-- ::', );
-insert into segmentovideo values (40, , '2018-- ::', );
-insert into segmentovideo values (41, , '2018-- ::', );
-insert into segmentovideo values (42, , '2018-- ::', );
-insert into segmentovideo values (43, , '2018-- ::', );
-insert into segmentovideo values (44, , '2018-- ::', );
-insert into segmentovideo values (45, , '2018-- ::', );
-insert into segmentovideo values (46, , '2018-- ::', );
-insert into segmentovideo values (47, , '2018-- ::', );
-insert into segmentovideo values (48, , '2018-- ::', );
-insert into segmentovideo values (49, , '2018-- ::', );
-insert into segmentovideo values (50, , '2018-- ::', );
-insert into segmentovideo values (51, , '2018-- ::', );
-insert into segmentovideo values (52, , '2018-- ::', );
-insert into segmentovideo values (53, , '2018-- ::', );
-insert into segmentovideo values (54, , '2018-- ::', );
-insert into segmentovideo values (55, , '2018-- ::', );
-insert into segmentovideo values (56, , '2018-- ::', );
-insert into segmentovideo values (57, , '2018-- ::', );
-insert into segmentovideo values (58, , '2018-- ::', );
-insert into segmentovideo values (59, , '2018-- ::', );
-insert into segmentovideo values (60, , '2018-- ::', );
-insert into segmentovideo values (61, , '2018-- ::', );
-insert into segmentovideo values (62, , '2018-- ::', );
-insert into segmentovideo values (63, , '2018-- ::', );
-insert into segmentovideo values (64, , '2018-- ::', );
-insert into segmentovideo values (65, , '2018-- ::', );
-insert into segmentovideo values (66, , '2018-- ::', );
-insert into segmentovideo values (67, , '2018-- ::', );
-insert into segmentovideo values (68, , '2018-- ::', );
-insert into segmentovideo values (69, , '2018-- ::', );
-insert into segmentovideo values (70, , '2018-- ::', );
-insert into segmentovideo values (71, , '2018-- ::', );
-insert into segmentovideo values (72, , '2018-- ::', );
-insert into segmentovideo values (73, , '2018-- ::', );
-insert into segmentovideo values (74, , '2018-- ::', );
-insert into segmentovideo values (75, , '2018-- ::', );
-insert into segmentovideo values (76, , '2018-- ::', );
-insert into segmentovideo values (77, , '2018-- ::', );
-insert into segmentovideo values (78, , '2018-- ::', );
-insert into segmentovideo values (79, , '2018-- ::', );
-insert into segmentovideo values (80, , '2018-- ::', );
-insert into segmentovideo values (81, , '2018-- ::', );
-insert into segmentovideo values (82, , '2018-- ::', );
-insert into segmentovideo values (83, , '2018-- ::', );
-insert into segmentovideo values (84, , '2018-- ::', );
-insert into segmentovideo values (85, , '2018-- ::', );
-insert into segmentovideo values (86, , '2018-- ::', );
-insert into segmentovideo values (87, , '2018-- ::', );
-insert into segmentovideo values (88, , '2018-- ::', );
-insert into segmentovideo values (89, , '2018-- ::', );
-insert into segmentovideo values (90, , '2018-- ::', );
-insert into segmentovideo values (91, , '2018-- ::', );
-insert into segmentovideo values (92, , '2018-- ::', );
-insert into segmentovideo values (93, , '2018-- ::', );
-insert into segmentovideo values (94, , '2018-- ::', );
-insert into segmentovideo values (95, , '2018-- ::', );
-insert into segmentovideo values (96, , '2018-- ::', );
-insert into segmentovideo values (97, , '2018-- ::', );
-insert into segmentovideo values (98, , '2018-- ::', );
-insert into segmentovideo values (99, , '2018-- ::', );
-insert into segmentovideo values (100, , '2018-- ::', );
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (282568889,2018-02-08 20:07:25,nomepessoa,moradalocal,num_processo_socorro);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (910039627,2018-09-07 20:52:34,nomepessoa,moradalocal,031);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (514479237,2018-07-00 20:59:40,nomepessoa,moradalocal,342);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (250735087,2018-01-05 20:50:52,nomepessoa,moradalocal,643);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (370555672,2018-09-08 20:43:15,nomepessoa,moradalocal,274);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (803720773,2018-01-06 20:23:24,nomepessoa,moradalocal,315);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (741368179,2018-02-06 20:38:25,nomepessoa,moradalocal,526);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (787396354,2018-00-01 20:57:33,nomepessoa,moradalocal,767);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (745575525,2018-01-04 20:54:10,nomepessoa,moradalocal,038);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (914501814,2018-09-07 20:59:22,nomepessoa,moradalocal,359);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (590705589,2018-09-09 20:53:25,nomepessoa,moradalocal,5510);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (645857769,2018-00-01 20:00:47,nomepessoa,moradalocal,9611);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (521913081,2018-02-00 20:56:03,nomepessoa,moradalocal,7012);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (089939118,2018-05-08 20:50:27,nomepessoa,moradalocal,9613);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (158378762,2018-04-01 20:33:12,nomepessoa,moradalocal,1914);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (294199661,2018-02-06 20:58:51,nomepessoa,moradalocal,5115);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (132427333,2018-04-06 20:54:27,nomepessoa,moradalocal,1716);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (421093231,2018-09-03 20:05:51,nomepessoa,moradalocal,4817);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (633306798,2018-02-09 20:37:15,nomepessoa,moradalocal,0718);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (627446545,2018-07-05 20:38:17,nomepessoa,moradalocal,7519);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (762471747,2018-04-04 20:41:50,nomepessoa,moradalocal,8820);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (617071947,2018-07-01 20:35:32,nomepessoa,moradalocal,9821);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (542987051,2018-08-09 20:20:12,nomepessoa,moradalocal,2822);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (061483336,2018-07-04 20:31:25,nomepessoa,moradalocal,7723);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (338798104,2018-01-00 20:55:32,nomepessoa,moradalocal,8724);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (877099716,2018-06-00 20:58:14,nomepessoa,moradalocal,4925);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (383482869,2018-09-08 20:45:09,nomepessoa,moradalocal,1426);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (748453747,2018-08-09 20:02:48,nomepessoa,moradalocal,9827);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (293565222,2018-00-09 20:35:46,nomepessoa,moradalocal,2528);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (941231817,2018-01-09 20:44:37,nomepessoa,moradalocal,7129);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (457910822,2018-01-07 20:45:13,nomepessoa,moradalocal,4730);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (363434614,2018-07-09 20:18:11,nomepessoa,moradalocal,2931);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (209330218,2018-09-02 20:00:54,nomepessoa,moradalocal,5232);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (849767667,2018-00-00 20:07:42,nomepessoa,moradalocal,3933);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (528689294,2018-05-01 20:55:22,nomepessoa,moradalocal,9834);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (067218437,2018-05-04 20:26:17,nomepessoa,moradalocal,4235);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (422935984,2018-01-09 20:28:49,nomepessoa,moradalocal,5836);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (686572561,2018-06-07 20:19:39,nomepessoa,moradalocal,0737);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (003302471,2018-05-00 20:43:28,nomepessoa,moradalocal,7538);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (854215115,2018-01-08 20:11:25,nomepessoa,moradalocal,4739);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (555193908,2018-00-08 20:16:46,nomepessoa,moradalocal,5140);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (649230568,2018-07-09 20:02:43,nomepessoa,moradalocal,2341);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (630191704,2018-06-04 20:45:12,nomepessoa,moradalocal,7942);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (858554858,2018-07-08 20:57:12,nomepessoa,moradalocal,4143);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (110082585,2018-03-02 20:29:19,nomepessoa,moradalocal,4644);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (941940004,2018-03-06 20:48:48,nomepessoa,moradalocal,2945);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (154676071,2018-06-00 20:25:18,nomepessoa,moradalocal,5446);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (197980340,2018-01-04 20:24:49,nomepessoa,moradalocal,7747);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (474049260,2018-03-08 20:22:54,nomepessoa,moradalocal,3648);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (710368114,2018-02-00 20:24:08,nomepessoa,moradalocal,3349);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (128677201,2018-04-01 20:37:25,nomepessoa,moradalocal,0150);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (269926752,2018-08-06 20:40:08,nomepessoa,moradalocal,4151);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (279133903,2018-08-01 20:20:49,nomepessoa,moradalocal,7952);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (027824696,2018-06-04 20:14:43,nomepessoa,moradalocal,6253);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (441465830,2018-03-00 20:11:26,nomepessoa,moradalocal,9854);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (271064852,2018-09-06 20:12:23,nomepessoa,moradalocal,7155);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (894741138,2018-09-00 20:23:16,nomepessoa,moradalocal,8256);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (522436880,2018-08-00 20:08:52,nomepessoa,moradalocal,1357);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (988995251,2018-04-05 20:25:54,nomepessoa,moradalocal,1758);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (541906825,2018-01-07 20:32:10,nomepessoa,moradalocal,1559);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (737802188,2018-08-06 20:13:18,nomepessoa,moradalocal,9460);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (501191820,2018-07-01 20:00:13,nomepessoa,moradalocal,4661);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (527483768,2018-04-09 20:57:18,nomepessoa,moradalocal,2862);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (152349123,2018-00-09 20:07:49,nomepessoa,moradalocal,3263);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (032096435,2018-07-06 20:01:17,nomepessoa,moradalocal,9964);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (906702090,2018-08-09 20:18:42,nomepessoa,moradalocal,6465);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (596623018,2018-08-02 20:06:53,nomepessoa,moradalocal,3466);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (776115405,2018-09-06 20:53:15,nomepessoa,moradalocal,2367);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (639557275,2018-06-07 20:20:52,nomepessoa,moradalocal,3468);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (567799713,2018-07-03 20:06:41,nomepessoa,moradalocal,1869);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (518605985,2018-01-00 20:18:50,nomepessoa,moradalocal,0470);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (150484840,2018-00-03 20:25:29,nomepessoa,moradalocal,8071);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (843636590,2018-09-00 20:14:29,nomepessoa,moradalocal,0872);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (476922515,2018-09-01 20:22:56,nomepessoa,moradalocal,7373);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (849594895,2018-04-00 20:51:21,nomepessoa,moradalocal,2374);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (503050238,2018-04-03 20:00:14,nomepessoa,moradalocal,5675);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (686806600,2018-03-08 20:12:54,nomepessoa,moradalocal,2576);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (718762472,2018-06-09 20:11:29,nomepessoa,moradalocal,6777);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (003395533,2018-05-01 20:22:56,nomepessoa,moradalocal,7078);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (762245530,2018-07-04 20:13:13,nomepessoa,moradalocal,9379);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (028463488,2018-02-05 20:28:27,nomepessoa,moradalocal,7080);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (824494085,2018-06-00 20:58:56,nomepessoa,moradalocal,9681);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (080261301,2018-01-01 20:22:08,nomepessoa,moradalocal,3282);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (107304179,2018-09-03 20:06:15,nomepessoa,moradalocal,1383);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (672939496,2018-02-02 20:04:38,nomepessoa,moradalocal,8684);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (371368873,2018-05-07 20:02:31,nomepessoa,moradalocal,2185);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (321343118,2018-09-05 20:47:05,nomepessoa,moradalocal,9386);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (691961188,2018-04-04 20:02:02,nomepessoa,moradalocal,3687);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (061839164,2018-00-05 20:36:32,nomepessoa,moradalocal,9088);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (955790490,2018-01-08 20:22:24,nomepessoa,moradalocal,5589);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (588637181,2018-03-01 20:16:52,nomepessoa,moradalocal,3590);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (624518643,2018-02-03 20:43:58,nomepessoa,moradalocal,8791);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (986951842,2018-08-01 20:42:19,nomepessoa,moradalocal,1392);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (551879452,2018-02-02 20:57:12,nomepessoa,moradalocal,1093);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (096387924,2018-00-06 20:22:18,nomepessoa,moradalocal,9594);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (362335211,2018-03-05 20:19:14,nomepessoa,moradalocal,8495);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (385398628,2018-09-09 20:49:43,nomepessoa,moradalocal,1496);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (442595548,2018-03-04 20:39:45,nomepessoa,moradalocal,2897);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (115430306,2018-03-04 20:27:23,nomepessoa,moradalocal,5898);
+insert into eventoemergencia (num_telefone,instante_chamada,nome_pessoa,morada_local,num_processo_socorro) values (242680823,2018-02-01 20:38:02,nomepessoa,moradalocal,3699);
+
+insert into processosocorro values (570);
+insert into processosocorro values (871);
+insert into processosocorro values (282);
+insert into processosocorro values (313);
+insert into processosocorro values (594);
+insert into processosocorro values (865);
+insert into processosocorro values (226);
+insert into processosocorro values (717);
+insert into processosocorro values (978);
+insert into processosocorro values (159);
+insert into processosocorro values (8310);
+insert into processosocorro values (7411);
+insert into processosocorro values (6912);
+insert into processosocorro values (7613);
+insert into processosocorro values (9514);
+insert into processosocorro values (0115);
+insert into processosocorro values (8616);
+insert into processosocorro values (2117);
+insert into processosocorro values (1518);
+insert into processosocorro values (4619);
+insert into processosocorro values (2220);
+insert into processosocorro values (6421);
+insert into processosocorro values (4322);
+insert into processosocorro values (1423);
+insert into processosocorro values (5424);
+insert into processosocorro values (7725);
+insert into processosocorro values (6226);
+insert into processosocorro values (5127);
+insert into processosocorro values (9428);
+insert into processosocorro values (9529);
+insert into processosocorro values (9330);
+insert into processosocorro values (0731);
+insert into processosocorro values (7132);
+insert into processosocorro values (4233);
+insert into processosocorro values (8334);
+insert into processosocorro values (4135);
+insert into processosocorro values (5236);
+insert into processosocorro values (3537);
+insert into processosocorro values (0438);
+insert into processosocorro values (8439);
+insert into processosocorro values (7740);
+insert into processosocorro values (8541);
+insert into processosocorro values (9842);
+insert into processosocorro values (4543);
+insert into processosocorro values (4844);
+insert into processosocorro values (7745);
+insert into processosocorro values (4946);
+insert into processosocorro values (5547);
+insert into processosocorro values (0548);
+insert into processosocorro values (2849);
+insert into processosocorro values (9950);
+insert into processosocorro values (5751);
+insert into processosocorro values (1252);
+insert into processosocorro values (2653);
+insert into processosocorro values (7354);
+insert into processosocorro values (6255);
+insert into processosocorro values (2356);
+insert into processosocorro values (9857);
+insert into processosocorro values (3358);
+insert into processosocorro values (9959);
+insert into processosocorro values (2460);
+insert into processosocorro values (8461);
+insert into processosocorro values (1462);
+insert into processosocorro values (8963);
+insert into processosocorro values (9964);
+insert into processosocorro values (1065);
+insert into processosocorro values (7666);
+insert into processosocorro values (3867);
+insert into processosocorro values (3468);
+insert into processosocorro values (7069);
+insert into processosocorro values (7870);
+insert into processosocorro values (0371);
+insert into processosocorro values (6572);
+insert into processosocorro values (6273);
+insert into processosocorro values (1474);
+insert into processosocorro values (3975);
+insert into processosocorro values (3176);
+insert into processosocorro values (6177);
+insert into processosocorro values (7378);
+insert into processosocorro values (8779);
+insert into processosocorro values (9480);
+insert into processosocorro values (6781);
+insert into processosocorro values (0782);
+insert into processosocorro values (5583);
+insert into processosocorro values (5084);
+insert into processosocorro values (8585);
+insert into processosocorro values (6286);
+insert into processosocorro values (9287);
+insert into processosocorro values (8788);
+insert into processosocorro values (8689);
+insert into processosocorro values (2790);
+insert into processosocorro values (7991);
+insert into processosocorro values (8992);
+insert into processosocorro values (2893);
+insert into processosocorro values (1494);
+insert into processosocorro values (5195);
+insert into processosocorro values (9296);
+insert into processosocorro values (4097);
+insert into processosocorro values (0198);
+insert into processosocorro values (7999);
 
 insert into entidademeio values ('Bombeiros Lisboa');
 insert into entidademeio values ('Protecao Civil Lisboa');
