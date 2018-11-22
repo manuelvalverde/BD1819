@@ -17,7 +17,7 @@ public class Application{
 
 		try{
 		PrintWriter writer = new PrintWriter("file.txt", "UTF-8");
-		for(int i=0;i<100;i++){
+		for(int i=200;i<300;i++){
 			String myName = values;
 			for(int j=0;j<values.length();j++){
 				if(values.charAt(j)=='{'){
