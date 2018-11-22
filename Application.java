@@ -14,19 +14,29 @@ public class Application{
 		String entries = reader.nextLine();
 		System.out.println("Enter the values i.e vA,vB,...:");
 		String values = reader.nextLine();
-		char[] chars = values.toCharArray();     
-		for(int j=0;j<values.length();j++){
-			if(chars[j]=='?'){
-				int r= (int)(Math.random() *10) +0;
-				chars[j]=Character.forDigit(r,RADIX);
-			} 
-		}
-		values=String.valueOf(chars);
+
 		try{
-			PrintWriter writer = new PrintWriter("file.txt", "UTF-8");
-			for(int i=0;i<100;i++)
-				writer.println("insert into "+tablename+" ("+entries+") values ("+values+");");
-				writer.close();
+		PrintWriter writer = new PrintWriter("file.txt", "UTF-8");
+		for(int i=0;i<100;i++){
+			String myName = values;
+			for(int j=0;j<values.length();j++){
+				if(values.charAt(j)=='{'){
+					int r= (int)(Math.random() *10) +0;
+					myName=myName.substring(0,j)+String.valueOf(r)+myName.substring(j+1);
+				}
+				else if(values.charAt(j)=='?'){
+					myName=myName.substring(0,j)+String.valueOf(i)+myName.substring(j+1);
+				}
+				else if(values.charAt(j)=='}'){
+					int r= (int)(Math.random() *6) +0;
+					myName=myName.substring(0,j)+String.valueOf(r)+myName.substring(j+1);
+				}
+
+			}
+
+			writer.println("insert into "+tablename+" ("+entries+") values ("+myName+");");
+		}
+		writer.close();
 		}catch(IOException e){e.printStackTrace();}
 	}
 }
