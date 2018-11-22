@@ -15,7 +15,7 @@ public class Application{
 		try{
 			PrintWriter writer = new PrintWriter("file.txt", "UTF-8");
 			for(int i=0;i<100;i++)
-				writer.println("insert into "+tablename+" ("+entries+") values ("+values+i+")");
+				writer.println("insert into "+tablename+" ("+entries+") values ("+values+i+");");
 				writer.close();
 		}catch(IOException e){e.printStackTrace();}
 	}
