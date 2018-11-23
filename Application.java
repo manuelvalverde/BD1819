@@ -32,9 +32,19 @@ public class Application{
 					int r= (int)(Math.random() *6) +0;
 					myName=myName.substring(0,j)+String.valueOf(r)+myName.substring(j+1);
 				}
+				else if(values.charAt(j)=='<'){
+					int r= (int)(Math.random() *4) +6;
+					myName=myName.substring(0,j)+String.valueOf(r)+myName.substring(j+1);
+				}
+				else if(values.charAt(j)=='>'){
+					int r= (int)(Math.random() *2) +0;
+					myName=myName.substring(0,j)+String.valueOf(r)+myName.substring(j+1);
+				}
 
 			}
-
+			if(entries.equals(""))
+					writer.println("insert into "+tablename+" values ("+myName+");");
+			else
 			writer.println("insert into "+tablename+" ("+entries+") values ("+myName+");");
 		}
 		writer.close();
