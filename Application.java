@@ -19,15 +19,16 @@ public class Application{
 		PrintWriter writer = new PrintWriter("file.txt", "UTF-8");
 		for(int i=0;i<100;i++){
 			String myName = values;
-			for(int j=0;j<values.length();j++){
-				if(values.charAt(j)=='{'){
+			for(int j=0;j<myName.length();j++){
+				if(myName.charAt(j)=='{'){
 					int r= (int)(Math.random() *10) +0;
 					myName=myName.substring(0,j)+String.valueOf(r)+myName.substring(j+1);
 				}
-				else if(values.charAt(j)=='?'){
+				else if(myName.charAt(j)=='?'){
 					myName=myName.substring(0,j)+String.valueOf(i)+myName.substring(j+1);
+					
 				}
-				else if(values.charAt(j)=='}'){
+				else if(myName.charAt(j)=='}'){
 					int r= (int)(Math.random() *6) +0;
 					myName=myName.substring(0,j)+String.valueOf(r)+myName.substring(j+1);
 				}
