@@ -22,14 +22,14 @@ create table camara --inserted
 	(num_camara smallint not null unique, --e necessario not null?
 	 constraint pk_camara primary key(num_camara));
 
-create table video
+create table video --inserted
 	(data_hora_inicio timestamp not null unique,
 	 data_hora_fim timestamp not null,
 	 num_camara smallint not null,
      constraint pk_video primary key(num_camara, data_hora_inicio),
 	 constraint fk_video_camara foreign key(num_camara) references camara(num_camara));
 
-create table segmentovideo
+create table segmentovideo --inserted
 	(num_segmento smallint not null unique,
 	 duracao time not null,
 	 data_hora_inicio timestamp not null,
