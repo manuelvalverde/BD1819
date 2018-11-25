@@ -119,7 +119,7 @@ insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-09-2
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-06-17 13:47:12', '2018-06-17 14:38:33', 17);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-09-02 16:00:46', '2018-09-02 16:43:55', 18);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-08-28 19:10:21', '2018-08-28 19:49:16', 19);
-insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-08-04 20:55:16', '2018-08-04 21:22:05', 20); 
+insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-08-04 20:55:16', '2018-08-04 21:22:05', 20);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-06-07 17:11:56', '2018-06-07 17:57:52', 21);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-08-14 14:00:26', '2018-08-14 14:42:08', 22);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-07-08 11:23:42', '2018-07-08 12:14:33', 23);
@@ -138,7 +138,7 @@ insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-06-0
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-06-30 21:12:35', '2018-06-30 21:44:03', 36);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-11-09 15:39:47', '2018-11-09 15:54:43', 37);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-09-09 09:11:50', '2018-09-09 09:43:14', 38);
-insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-07-30 11:48:23', '2018-07-30 12:38:23', 39); 
+insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-07-30 11:48:23', '2018-07-30 12:38:23', 39);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-12-05 17:46:29', '2018-12-05 18:03:11', 40);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-01-02 19:02:31', '2018-01-02 19:27:14', 41);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-08-05 13:54:31', '2018-08-05 14:17:07', 42);
@@ -153,7 +153,7 @@ insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-11-1
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-09-06 20:23:36', '2018-09-06 20:48:17', 51);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-06-05 16:46:00', '2018-06-05 17:30:26', 52);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-04-25 13:54:10', '2018-04-25 14:38:48', 53);
-insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-07-02 11:32:08', '2018-07-02 12:09:19', 54); 
+insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-07-02 11:32:08', '2018-07-02 12:09:19', 54);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-06-21 10:30:10', '2018-06-21 11:22:56', 55);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-06-20 09:24:03', '2018-06-20 10:21:17', 56);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-07-04 07:00:33', '2018-07-04 07:19:02', 57);
@@ -162,7 +162,7 @@ insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-09-1
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-07-30 19:47:50', '2018-07-30 20:06:44', 60);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-08-01 17:09:04', '2018-08-01 18:04:43', 61);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-08-20 10:00:24', '2018-08-20 10:32:03', 62);
-insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-09-10 12:07:14', '2018-09-10 13:12:26', 63); 
+insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-09-10 12:07:14', '2018-09-10 13:12:26', 63);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-07-17 19:00:16', '2018-07-17 19:55:28', 64);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-06-30 17:52:42', '2018-06-30 18:50:11', 65);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-09-09 12:57:16', '2018-09-09 13:12:12', 66);
@@ -177,7 +177,7 @@ insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-07-0
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-06-05 10:26:07', '2018-06-05 10:37:19', 75);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-11-22 11:12:21', '2018-11-22 11:21:54', 76);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-02-19 19:00:21', '2018-02-19 19:35:24', 77);
-insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-12-09 16:55:12', '2018-12-09 17:59:55', 78); 
+insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-12-09 16:55:12', '2018-12-09 17:59:55', 78);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-05-21 10:14:14', '2018-05-21 11:06:12', 79);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-08-10 14:18:46', '2018-08-10 14:40:12', 80);
 insert into video (data_hora_inicio,data_hora_fim,num_camara) values ('2018-01-20 20:10:38', '2018-01-20 21:08:22', 81);
@@ -219,7 +219,7 @@ insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) val
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (16, '00:22:40', '2018-09-24 10:42:59', 16);
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (17, '00:51:21', '2018-06-17 13:47:12', 17);
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (18, '00:43:09', '2018-09-02 16:00:46', 18);
-insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (19, '00:38:55', '2018-08-28 19:10:21', 19); 
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (19, '00:38:55', '2018-08-28 19:10:21', 19);
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (20, '00:26:49', '2018-08-04 20:55:16', 20);
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (21, '00:45:56', '2018-06-07 17:11:56', 21);
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (22, '00:41:42', '2018-08-14 14:00:26', 22);
@@ -229,7 +229,7 @@ insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) val
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (26, '00:49:04', '2018-06-03 12:54:16', 26);
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (27, '00:21:05', '2018-04-14 15:32:54', 27);
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (28, '01:00:20', '2018-08-01 18:52:30', 28);
-insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (29, '00:18:20', '2018-03-17 21:46:51', 29); 
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (29, '00:18:20', '2018-03-17 21:46:51', 29);
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (30, '00:35:31', '2018-02-05 18:35:33', 30);
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (31, '00:41:40', '2018-08-03 16:09:31', 31);
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (32, '00:51:11', '2018-09-04 13:50:19', 32);
@@ -249,7 +249,7 @@ insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) val
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (46, '00:32:39', '2018-06-26 12:07:35', 46);
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (47, '00:36:46', '2018-04-25 14:12:09', 47);
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (48, '00:33:27', '2018-05-01 16:51:44', 48);
-insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (49, '00:15:53', '2018-10-10 18:58:32', 49); 
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (49, '00:15:53', '2018-10-10 18:58:32', 49);
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (50, '00:28:09', '2018-11-12 20:32:26', 50);
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (51, '00:14:41', '2018-09-06 20:23:36', 51);
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (52, '00:44:26', '2018-06-05 16:46:00', 52);
@@ -269,7 +269,7 @@ insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) val
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (66, '00:14:56', '2018-09-09 12:57:16', 66);
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (67, '00:45:25', '2018-06-05 08:44:39', 67);
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (68, '00:21:12', '2018-05-28 09:48:13', 68);
-insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (69, '00:25:18', '2018-09-13 11:43:25', 69); 
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (69, '00:25:18', '2018-09-13 11:43:25', 69);
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (70, '00:30:36', '2018-03-21 12:31:11', 70);
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (71, '00:37:56', '2018-09-19 14:13:03', 71);
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (72, '00:22:32', '2018-09-29 17:53:53', 72);
@@ -299,7 +299,7 @@ insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) val
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (96, '00:20:20', '2018-08-26 20:42:19', 96);
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (97, '00:53:53', '2018-09-21 21:30:07', 97);
 insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (98, '00:42:49', '2018-07-17 08:55:31', 98);
-insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (99, '01:00:44', '2018-08-10 11:24:13', 99); 
+insert into segmentovideo (num_segmento,duracao,data_hora_inicio,num_camara) values (99, '01:00:44', '2018-08-10 11:24:13', 99);
 
 insert into local values ('Lisboa');
 insert into local values ('Sintra');
@@ -448,7 +448,7 @@ insert into vigia values ('Santarem', 42);
 insert into vigia values ('Figueira da Foz', 43);
 insert into vigia values ('Felgueiras', 44);
 insert into vigia values ('Alcobaca', 45);
-insert into vigia values ('Evora', 46); 
+insert into vigia values ('Evora', 46);
 insert into vigia values ('Pacos de Ferreira', 47);
 insert into vigia values ('Castelo Branco', 48);
 insert into vigia values ('Monchique', 49);
@@ -460,7 +460,7 @@ insert into vigia values ('Monchique', 54);
 insert into vigia values ('Caldas da Rainha', 55);
 insert into vigia values ('Montijo', 56);
 insert into vigia values ('Sesimbra', 57);
-insert into vigia values ('Monchique', 58); 
+insert into vigia values ('Monchique', 58);
 insert into vigia values ('Vila Verde' 59);
 insert into vigia values ('Agueda', 60);
 insert into vigia values ('Lousada' 61);
@@ -1074,11 +1074,209 @@ insert into meiosocorro (num_meio,nome_entidade) values (94, 'Protecao Civil Coi
 insert into meiosocorro (num_meio,nome_entidade) values (98, 'Protecao Civil Lisboa');
 
 
+
+
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (1, 'Protecao Civil Lisboa', 05, 0);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (2, 'Policia Lisboa', 14, 1);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (3, 'Policia Maritima Lisboa', 89, 2);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (6, 'Protecao Civil Monchique', 08,3);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (7, 'Policia Monchique', 10,4);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (10, 'Protecao Civil Ponta Delgada', 52,5);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (11, 'Policia Ponta Delgada', 38,6);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (12, 'Policia Maritima Ponta Delgada', 44,7);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (15, 'Protecao Civil Porto', 01,8);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (16, 'Policia Porto', 19,9);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (17, 'Policia Maritima Porto', 59,10);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (20, 'Protecao Civil Aveiro', 28,11);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (21, 'Policia Aveiro', 27,12);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (24, 'Protecao Civil Faro', 41,13);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (25, 'Policia Faro', 08,14);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (26, 'Policia Maritima Faro', 73,15);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (29, 'Protecao Civil Beja', 85,16);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (30, 'Policia Beja', 78,17);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (33, 'Protecao Civil Abrantes', 26,18);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (34, 'Policia Abrantes', 74,19);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (37, 'Protecao Civil Coimbra', 13,20);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (38, 'Policia Coimbra', 32,21);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (41, 'Protecao Civil Leiria', 87,22);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (42, 'Policia Leiria', 76,23);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (45, 'Protecao Civil Braga', 85,24);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (46, 'Policia Braga', 11,25);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (47, 'Policia Maritima Braga', 38,26);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (50, 'Protecao Civil Angra do Heroismo', 12,27);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (51, 'Policia Angra do Heroismo', 84,28);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (52, 'Policia Maritima Angra do Heroismo', 04,29);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (55, 'Protecao Civil Guimaraes', 11,30);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (56, 'Policia Guimaraes', 44,31);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (59, 'Protecao Civil Castelo Branco', 61,32);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (60, 'Policia Castelo Branco', 95,33);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (63, 'Protecao Civil Oliveira do Hospital', 22,34);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (64, 'Policia Oliveira do Hospital', 05,35);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (67, 'Protecao Civil Varzim', 98,36);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (68, 'Policia Varzim', 98,37);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (71, 'Protecao Civil Montijo', 79,38);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (72, 'Policia Montijo', 14,39);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (75, 'Protecao Civil Tondela', 14,40);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (76, 'Policia Tondela', 20,41);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (79, 'Protecao Civil Portalegre', 06,42);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (80, 'Policia Portalegre', 26,43);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (83, 'Protecao Civil Lisboa', 56,44);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (85, 'Protecao Civil Monchique', 52,45);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (90, 'Protecao Civil Faro', 41,46);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (94, 'Protecao Civil Coimbra', 07,47);
+insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (98, 'Protecao Civil Lisboa', 52,48);
+
+
+
+
+
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (2, 'Policia Lisboa', 26,49);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (4, 'Camara Municipal Lisboa', 14,50);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (7, 'Policia Monchique', 19,51);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (8, 'Camara Municipal Monchique', 85,52);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (11, 'Policia Ponta Delgada', 91,53);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (13, 'Camara Municipal Ponta Delgada', 45,54);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (16, 'Policia Porto', 21,55);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (18, 'Camara Municipal Porto', 81,56);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (21, 'Polciia Aveiro', 51,57);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (22, 'Camara Municipal Aveiro', 96,58);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (25, 'Policia Faro', 59,59);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (27, 'Camara Municipal Faro', 68,60);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (30, 'Policia Beja', 62,61);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (31, 'Camara Municipal Beja', 73,62);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (34, 'Policia Abrantes', 48,63);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (35, 'Camara Municipal Abrantes', 61,64);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (38, 'Policia Coimbra', 60,65);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (39, 'Camara Municipal Coimbra', 58,66);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (42, 'Policia Leiria', 88,67);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (43, 'Camara Municipal Leiria', 33,68);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (46, 'Policia Braga', 46,69);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (48, 'Camara Municipal Braga', 96,70);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (51, 'Policia Angra do Heroismo', 44,71);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (53, 'Camara Municipal Angra do Heroismo', 05,72);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (56, 'Policia Guimaraes', 01,73);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (57, 'Camara Municipal Guimaraes', 72,74);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (60, 'Policia Castelo Branco', 22,75);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (61, 'Camara Municipal Castelo Branco', 04,76);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (64, 'Policia Oliveira do Hospital', 08,77);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (65, 'Camara Municipal Oliveira do Hospital', 56,78);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (68, 'Policia Varzim', 01,79);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (69, 'Camara Municipal Varzim', 54,80);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (72, 'Policia Montijo', 03,81);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (73, 'Camara Municipal Montijo', 60,82);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (76, 'Policia Tondela', 04,83);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (77, 'Camara Municipal Tondela', 06,84);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (80, 'Policia Portalegre', 67,85);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (81, 'Camara Municipal Portalegre', 62,86);
+insert into alocado (num_meio,nome_entidade,num_horas,num_processo_socorro) values (97, 'Camara Municipal Monchique', 63,87);
+
+
+
+
+
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (0, 'Bombeiros Lisboa', 0);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (1, 'Protecao Civil Lisboa', 1);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (2, 'Policia Lisboa', 2);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (3, 'Policia Maritima Lisboa', 3);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (4, 'Camara Municipal Lisboa', 4);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (5, 'Bombeiros Monchique', 5);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (6, 'Protecao Civil Monchique', 6);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (7, 'Policia Monchique', 7);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (8, 'Camara Municipal Monchique', 8);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (9, 'Bombeiros Ponta Delgada', 9);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (10, 'Protecao Civil Ponta Delgada', 10);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (11, 'Policia Ponta Delgada', 11);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (12, 'Policia Maritima Ponta Delgada', 12);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (13, 'Camara Municipal Ponta Delgada', 13);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (14, 'Bombeiros Porto', 14);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (15, 'Protecao Civil Porto', 15);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (16, 'Policia Porto', 16);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (17, 'Policia Maritima Porto', 17);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (18, 'Camara Municipal Porto', 18);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (19, 'Bombeiros Aveiro', 19);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (20, 'Protecao Civil Aveiro', 20);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (21, 'Policia Aveiro', 21);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (22, 'Camara Municipal Aveiro', 22);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (23, 'Bombeiros Faro', 23);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (24, 'Protecao Civil Faro', 24);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (25, 'Policia Faro', 25);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (26, 'Policia Maritima Faro', 26);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (27, 'Camara Municipal Faro', 27);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (28, 'Bombeiros Beja', 28);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (29, 'Protecao Civil Beja', 29);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (30, 'Policia Beja', 30);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (31, 'Camara Municipal Beja', 31);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (32, 'Bombeiros Abrantes', 32);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (33, 'Protecao Civil Abrantes', 33);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (34, 'Policia Abrantes'34);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (35, 'Camara Municipal Abrantes'35);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (36, 'Bombeiros Coimbra', 36);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (37, 'Protecao Civil Coimbra', 37);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (38, 'Policia Coimbra', 38);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (39, 'Camara Municipal Coimbra', 39);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (40, 'Bombeiros Leiria', 40);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (41, 'Protecao Civil Leiria', 41);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (42, 'Policia Leiria', 42);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (43, 'Camara Municipal Leiria', 43);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (44, 'Bombeiros Braga', 44);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (45, 'Protecao Civil Braga', 45);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (46, 'Policia Braga', 46);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (47, 'Policia Maritima Braga', 47);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (48, 'Camara Municipal Braga', 48);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (49, 'Bombeiros Angra do Heroismo', 49);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (50, 'Protecao Civil Angra do Heroismo', 50);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (51, 'Policia Angra Heroismo', 51);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (52, 'Policia Maritima Angra do Heroismo', 52);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (53, 'Camara Municipal Angra do Heroismo', 53);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (54, 'Bombeiros Guimaraes', 54);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (55, 'Protecao Civil Guimaraes', 55);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (56, 'Policia Guimaraes', 56);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (57, 'Camara Municipal Guimaraes', 57);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (58, 'Bombeiros Castelo Branco', 58);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (59, 'Protecao Civil Castelo Branco', 59);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (60, 'Policia Castelo Branco', 60);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (61, 'Camara Municipal Castelo Branco', 61);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (62, 'Bombeiros Oliveira do Hospital', 62);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (63, 'Protecao Civil Oliveira do Hospital', 63);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (64, 'Policia Oliveira do Hospital', 64);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (65, 'Camara Municipal Oliveira do Hospital', 65);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (66, 'Bombeiros Varzim', 66);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (67, 'Protecao Civil Varzim', 67);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (68, 'Policia Varzim', 68);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (69, 'Camara Municipal Varzim', 69);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (70, 'Bombeiros Montijo', 70);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (71, 'Protecao Civil Montijo', 71);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (72, 'Policia Montijo', 72);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (73, 'Camara Municipal Montijo', 73);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (74, 'Bombeiros Tondela', 74);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (75, 'Protecao Civil Tondela', 75);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (76, 'Policia Tondela', 76);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (77, 'Camara Municipal Tondela', 77);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (78, 'Bombeiros Portalegre', 78);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (79, 'Protecao Civil Portalegre', 79);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (80, 'Policia Portalegre', 80);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (81, 'Camara Municipal Portalegre', 81);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (82, 'Bombeiros Lisboa', 82);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (83, 'Protecao Civil Lisboa', 83);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (84, 'Bombeiros Monchique', 84);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (85, 'Protecao Civil Monchique', 85);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (86, 'Bombeiros Ponta Delgada', 86);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (87, 'Bombeiros Porto', 87);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (88, 'Bombeiros Aveiro', 88);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (89, 'Bombeiros Faro', 89);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (90, 'Protecao Civil Faro', 90);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (91, 'Bombeiros Beja', 91);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (92, 'Bombeiros Abrantes', 92);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (93, 'Bombeiros Coimbra', 93);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (94, 'Protecao Civil Coimbra', 94);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (95, 'Bombeiros Oliveira do Hospital', 95);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (96, 'Bombeiros Monchique', 96);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (97, 'Camara Municipal Monchique', 97);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (98, 'Protecao Civil Lisboa', 98);
+insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (99, 'Bombeiros Monchique', 99);
+
+
 --faltam
-
-insert into transporta (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (, '', , );
-
-insert into alocado (num_meio,nome_entidade,num_vitimas,num_processo_socorro) values (, '', , );
 
 insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (, '', );
 
