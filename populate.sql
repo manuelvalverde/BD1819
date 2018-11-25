@@ -1278,8 +1278,6 @@ insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (99, 'B
 
 --faltam
 
-insert into acciona (num_meio,nome_entidade,num_processo_socorro) values (, '', );
-
 insert into coordenador values (0);
 insert into coordenador values (1);
 insert into coordenador values (2);
