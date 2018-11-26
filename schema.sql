@@ -48,6 +48,10 @@ create table vigia --inserted
 	 constraint fk_vigia_morada foreign key(morada_local) references local(morada_local),
      constraint fk_vigia_camara foreign key(num_camara) references camara(num_camara));
 
+create table processosocorro       --(RI) tem de se meter restricao aqui?
+	(num_processo_socorro smallint not null unique,
+	 constraint pk_processosocorro primary key(num_processo_socorro));
+
 create table eventoemergencia
 	(num_telefone numeric(15,0) not null,
 	 instante_chamada timestamp not null,
@@ -58,10 +62,6 @@ create table eventoemergencia
 	 constraint fk_eventoemergencia_morada foreign key(morada_local) references local(morada_local),
 	 constraint fk_eventoemergencia_processo foreign key(num_processo_socorro) references processosocorro(num_processo_socorro),
 	 constraint unique_caller unique(num_telefone, nome_pessoa));
-
-create table processosocorro       --(RI) tem de se meter restricao aqui?
-	(num_processo_socorro smallint not null unique,
-	 constraint pk_processosocorro primary key(num_processo_socorro));
 
 create table entidademeio  --inserted
 	(nome_entidade varchar(80) not null unique,
@@ -133,8 +133,8 @@ create table audita
 	 texto varchar(1000) not null,
 	 constraint pk_audita primary key(id_coordenador, num_meio, nome_entidade, num_processo_socorro),
 	 constraint fk_audita_coordenador foreign key(id_coordenador) references coordenador(id_coordenador),
-	 constraint fk_audita_acciona foreign key(num_meio, nome_entidade, num_processo_socorro) references acciona(num_meio, nome_entidade, num_processo_socorro)
-	 check (data_hora_inicio < data_hora_fim)
+	 constraint fk_audita_acciona foreign key(num_meio, nome_entidade, num_processo_socorro) references acciona(num_meio, nome_entidade, num_processo_socorro),
+	 check (data_hora_inicio < data_hora_fim),
 	 check (data_auditoria >= current_date));
 
 create table solicita
