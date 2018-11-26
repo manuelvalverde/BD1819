@@ -133,9 +133,9 @@ create table audita
 	 texto varchar(1000) not null,
 	 constraint pk_audita primary key(id_coordenador, num_meio, nome_entidade, num_processo_socorro),
 	 constraint fk_audita_coordenador foreign key(id_coordenador) references coordenador(id_coordenador),
-	 constraint fk_audita_acciona foreign key(num_meio, nome_entidade, num_processo_socorro) references acciona(num_meio, nome_entidade, num_processo_socorro));
-
---------CONSTRAINTS das RIs
+	 constraint fk_audita_acciona foreign key(num_meio, nome_entidade, num_processo_socorro) references acciona(num_meio, nome_entidade, num_processo_socorro)
+	 check (data_hora_inicio < data_hora_fim)
+	 check (data_auditoria >= current_date));
 
 create table solicita
 	(id_coordenador smallint not null,
