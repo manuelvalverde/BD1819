@@ -59,7 +59,7 @@ create table eventoemergencia
 	 constraint fk_eventoemergencia_processo foreign key(num_processo_socorro) references processosocorro(num_processo_socorro),
 	 constraint unique_caller unique(num_telefone, nome_pessoa));
 
-create table processosocorro       --(RI) tem de se meter restricao aqui
+create table processosocorro       --(RI) tem de se meter restricao aqui?
 	(num_processo_socorro smallint not null unique,
 	 constraint pk_processosocorro primary key(num_processo_socorro));
 
