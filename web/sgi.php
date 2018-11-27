@@ -5,18 +5,14 @@
     try
     {
         $host = "db.ist.utl.pt";
-        $user ="ist186468";
-        $password = "manuel123";
+        $user ="ist424774";
+        $password = "mv1pnmdq2Av";
         $dbname = $user;
     
         $db = new PDO("pgsql:host=$host;dbname=$dbname", $user, $password);
         $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     
-        $sql = "SELECT account_number, branch_name, balance FROM account;";
-    
-        $result = $db->prepare($sql);
-        $result->execute();
-    
+   
         echo("<p>Insert</p>");
         echo("<p style=\"text-indent: 1.5em\"><a href=\"addLocal.php\">Add Local</a></p>");
         echo("<p style=\"text-indent: 1.5em\"><a href=\"addEE.php\">Add Emergency Event</a></p>");
