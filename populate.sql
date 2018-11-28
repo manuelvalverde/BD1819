@@ -1413,7 +1413,6 @@ insert into audita values (33, 33, 'Protecao Civil Abrantes', 33, '2018-06-18 16
 insert into audita values (34, 34, 'Policia Abrantes', 34, '2018-09-15 14:30:46', '2018-09-15 15:30:46', '2019-09-15 14:30:46', 'Auditoria 34');
 insert into audita values (35, 35, 'Camara Municipal Abrantes', 35, '2018-08-19 10:30:07', '2018-08-19 11:30:07', '2019-08-19 10:30:07', 'Auditoria 35');
 insert into audita values (36, 36, 'Bombeiros Coimbra', 36, '2018-07-05 07:03:04', '2018-07-05 08:03:04', '2019-07-05 07:03:04', 'Auditoria 36');
-insert into audita values (37, 37, 'Protecao Civil Coimbra', 37, '2018-10-04 10:42:59', '2018-10-04 11:42:59', '2019-10-04 10:42:59', 'Auditoria 37');
 insert into audita values (38, 38, 'Policia Coimbra', 38, '2018-06-27 13:47:12', '2018-06-27 14:47:12', '2019-06-27 13:47:12', 'Auditoria 38');
 insert into audita values (39, 39, 'Camara Municipal Coimbra', 39, '2018-09-12 16:00:46', '2018-09-12 17:00:46', '2019-09-12 16:00:46', 'Auditoria 39');
 insert into audita values (40, 40, 'Bombeiros Leiria', 40, '2018-09-08 19:10:21', '2018-09-08 20:10:21', '2019-09-08 19:10:21', 'Auditoria 40');

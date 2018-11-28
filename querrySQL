@@ -1,0 +1,8 @@
+2-SELECT nome_entidade FROM meio WHERE num_meio=(SELECT num_meio FROM audita WHERE num_processo_socorro=(SELECT MAX(num_processo_socorro) FROM audita WHERE data_hora_inicio>'2018-06-20 23:59:59' and data_hora_fim<'2018-09-24 00:00:00'));
+
+3-SELECT num_processo_socorro FROM eventoemergencia WHERE morada_local='Oliveira do Hospital' and instante_chamada BETWEEN '2017-12-31 23:59:59' and '2019-01-01 00:00:00' and num_processo_socorro IN (SELECT num_processo_socorro FROM acciona WHERE num_processo_socorro NOT IN (SELECT num_processo_socorro FROM audita));
+
+4-SELECT COUNT(num_segmento) FROM segmentovideo WHERE duracao>'00:00:59' and num_camara IN (SELECT num_camara FROM vigia WHERE morada_local='Monchique' and num_camara IN (SELECT num_camara FROM video WHERE data_hora_inicio BETWEEN '2018-08-01 00:00:00' and '2018-08-31 23:59:59'));
+
+5-SELECT nome_meio FROM meio WHERE num_meio IN (SELECT num_meio FROM meiocombate WHERE num_meio NOT IN (SELECT num_meio FROM meioapoio) and num_meio IN (SELECT num_meio FROM acciona));
+
