@@ -887,7 +887,7 @@ insert into meio values (77, 'Maquina Pesada', 'Camara Municipal Tondela');
 insert into meio values (78, 'Carro de Bombeiros', 'Bombeiros Portalegre');
 insert into meio values (79, 'Helicoptero', 'Protecao Civil Portalegre');
 insert into meio values (80, 'Jipe de Patrulha', 'Policia Portalegre');
-insert into meio values (81, 'Maquina Pesada', 'Camara Municipal Portalegre');  --Entidades com mais de 1 meio a partir daqui
+insert into meio values (81, 'Maquina Pesada', 'Camara Municipal Portalegre');  
 insert into meio values (82, 'Carro de Bombeiros', 'Bombeiros Lisboa');
 insert into meio values (83, 'Helicoptero', 'Protecao Civil Lisboa');
 insert into meio values (84, 'Carro de Bombeiros', 'Bombeiros Monchique');
@@ -971,7 +971,7 @@ insert into meiocombate values (79, 'Protecao Civil Portalegre');
 insert into meiocombate values (81, 'Camara Municipal Portalegre');
 insert into meiocombate values (82, 'Bombeiros Lisboa');
 insert into meiocombate values (83, 'Protecao Civil Lisboa');
-insert into meiocombate values (84, 'Bombeiros Monchique'); --60
+insert into meiocombate values (84, 'Bombeiros Monchique'); 
 insert into meiocombate values (85, 'Protecao Civil Monchique');
 insert into meiocombate values (86, 'Bombeiros Ponta Delgada');
 insert into meiocombate values (87, 'Bombeiros Porto');
@@ -1084,9 +1084,6 @@ insert into meiosocorro values (90, 'Protecao Civil Faro');
 insert into meiosocorro values (94, 'Protecao Civil Coimbra');
 insert into meiosocorro values (98, 'Protecao Civil Lisboa');
 
-
-
-
 insert into transporta values (1, 'Protecao Civil Lisboa', 05, 1);
 insert into transporta values (2, 'Policia Lisboa', 14, 2);
 insert into transporta values (3, 'Policia Maritima Lisboa', 89, 3);
@@ -1137,10 +1134,6 @@ insert into transporta values (90, 'Protecao Civil Faro', 41,90);
 insert into transporta values (94, 'Protecao Civil Coimbra', 07,94);
 insert into transporta values (98, 'Protecao Civil Lisboa', 52,98);
 
-
-
-
-
 insert into alocado values (2, 'Policia Lisboa', 26,2);
 insert into alocado values (4, 'Camara Municipal Lisboa', 14,4);
 insert into alocado values (7, 'Policia Monchique', 19,7);
@@ -1181,10 +1174,6 @@ insert into alocado values (80, 'Policia Portalegre', 67,80);
 insert into alocado values (81, 'Camara Municipal Portalegre', 62,81);
 insert into alocado values (97, 'Camara Municipal Monchique', 63,97);
 insert into alocado values (104, 'Protecao Civil Monchique', 12, 0);
-
-
-
-
 
 insert into acciona values (0, 'Bombeiros Lisboa', 0);
 insert into acciona values (1, 'Protecao Civil Lisboa', 1);
@@ -1389,8 +1378,6 @@ insert into acciona values (5, 'Bombeiros Monchique', 95);
 insert into acciona values (5, 'Bombeiros Monchique', 97);
 insert into acciona values (5, 'Bombeiros Monchique', 98);
 
-
-
 insert into coordenador values (0);
 insert into coordenador values (1);
 insert into coordenador values (2);
@@ -1529,7 +1516,6 @@ insert into audita values (33, 33, 'Protecao Civil Abrantes', 33, '2018-06-18 16
 insert into audita values (34, 34, 'Policia Abrantes', 34, '2018-09-15 14:30:46', '2018-09-15 15:30:46', '2017-09-15 14:30:46', 'Auditoria 34');
 insert into audita values (35, 35, 'Camara Municipal Abrantes', 35, '2018-08-19 10:30:07', '2018-08-19 11:30:07', '2017-08-19 10:30:07', 'Auditoria 35');
 insert into audita values (36, 36, 'Bombeiros Coimbra', 36, '2018-07-05 07:03:04', '2018-07-05 08:03:04', '2017-07-05 07:03:04', 'Auditoria 36');
---insert into audita values (37, 37, 'Protecao Civil Coimbra', 37, '2018-10-04 10:42:59', '2018-10-04 11:42:59', '2017-10-04 10:42:59', 'Auditoria 37');
 insert into audita values (38, 38, 'Policia Coimbra', 38, '2018-06-27 13:47:12', '2018-06-27 14:47:12', '2017-06-27 13:47:12', 'Auditoria 38');
 insert into audita values (39, 39, 'Camara Municipal Coimbra', 39, '2018-09-12 16:00:46', '2018-09-12 17:00:46', '2017-09-12 16:00:46', 'Auditoria 39');
 insert into audita values (40, 40, 'Bombeiros Leiria', 40, '2018-09-08 19:10:21', '2018-09-08 20:10:21', '2017-09-08 19:10:21', 'Auditoria 40');

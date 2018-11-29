@@ -26,3 +26,5 @@ WHERE (num_meio, nome_entidade) IN
 	 	 FROM transporta))) As foo
 GROUP BY nome_entidade
 HAVING COUNT(num_processo_socorro) >= (SELECT Count(distinct num_processo_socorro) From acciona);
+
+ENDIREITAR REMOVE EMERGENCY EVENT E O ADD TAMBÉM

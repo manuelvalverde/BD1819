@@ -1,4 +1,4 @@
-drop table camara cascade; --nao sei se e necessario
+drop table camara cascade;
 drop table video cascade;
 drop table segmentovideo cascade;
 drop table local cascade;
@@ -18,18 +18,18 @@ drop table audita cascade;
 drop table solicita cascade;
 
 
-create table camara --inserted
-	(num_camara smallint not null unique, --e necessario not null?
+create table camara
+	(num_camara smallint not null unique, 
 	 constraint pk_camara primary key(num_camara));
 
-create table video --inserted
+create table video
 	(data_hora_inicio timestamp not null unique,
 	 data_hora_fim timestamp not null,
 	 num_camara smallint not null,
      constraint pk_video primary key(num_camara, data_hora_inicio),
 	 constraint fk_video_camara foreign key(num_camara) references camara(num_camara));
 
-create table segmentovideo --inserted
+create table segmentovideo 
 	(num_segmento smallint not null unique,
 	 duracao time not null,
 	 data_hora_inicio timestamp not null,
@@ -37,18 +37,18 @@ create table segmentovideo --inserted
 	 constraint pk_segmentovideo primary key(num_segmento, data_hora_inicio, num_camara),
 	 constraint fk_segmentovideo_camara foreign key(num_camara, data_hora_inicio) references video(num_camara, data_hora_inicio));
 
-create table local --inserted
+create table local 
 	(morada_local varchar(255) not null unique,
 	 constraint pk_local primary key(morada_local));
 
-create table vigia --inserted
+create table vigia 
 	(morada_local varchar(255) not null,
 	 num_camara smallint not null unique,
 	 constraint pk_vigia primary key(morada_local, num_camara),
 	 constraint fk_vigia_morada foreign key(morada_local) references local(morada_local),
      constraint fk_vigia_camara foreign key(num_camara) references camara(num_camara));
 
-create table processosocorro       --(RI) tem de se meter restricao aqui?
+create table processosocorro      
 	(num_processo_socorro smallint not null unique,
 	 constraint pk_processosocorro primary key(num_processo_socorro));
 
@@ -63,7 +63,7 @@ create table eventoemergencia
 	 constraint fk_eventoemergencia_processo foreign key(num_processo_socorro) references processosocorro(num_processo_socorro),
 	 constraint unique_caller unique(num_telefone, nome_pessoa));
 
-create table entidademeio  --inserted
+create table entidademeio
 	(nome_entidade varchar(80) not null unique,
 	 constraint pk_entidademeio primary key(nome_entidade));
 
@@ -104,7 +104,7 @@ create table transporta
 create table alocado
 	(num_meio smallint not null,
 	 nome_entidade varchar(80) not null,
-	 num_horas smallint not null,               --time ou smallint?
+	 num_horas smallint not null,              
 	 num_processo_socorro smallint not null,
 	 constraint pk_alocado primary key(num_meio, nome_entidade, num_processo_socorro),
 	 constraint fk_alocado_meio foreign key(num_meio, nome_entidade) references meioapoio(num_meio, nome_entidade),
@@ -146,4 +146,3 @@ create table solicita
 	 constraint pk_solicita primary key(id_coordenador, data_hora_inicio_video, num_camara),
 	 constraint fk_solicita_coordenador foreign key(id_coordenador) references coordenador(id_coordenador),
 	 constraint fk_solicita_video foreign key(data_hora_inicio_video, num_camara) references video(data_hora_inicio, num_camara));
-
