@@ -1,7 +1,7 @@
 <html>
     <body>
 <?php
-    $nome_entidade = $_REQUEST['nome_entidade'];
+    $num_processo_socorro = $_REQUEST['num_processo_socorro'];
     try
     {
         $host = "db.ist.utl.pt";
@@ -10,12 +10,18 @@
         $dbname = $user;
         $db = new PDO("pgsql:host=$host;dbname=$dbname", $user, $password);
         $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        
-        $sql = "DELETE FROM entidademeio WHERE nome_entidade=:nome_entidade;";
+
+        $sql = "UPDATE eventoemergencia SET num_processo_socorro = null WHERE num_processo_socorro=:num_processo_socorro;";
         echo("<p>$sql</p>");
 
         $result = $db->prepare($sql);
-        $result->execute([':nome_entidade' => $nome_entidade]);
+        $result->execute([':num_processo_socorro' => $num_processo_socorro]);
+        
+        $sql = "DELETE FROM processosocorro WHERE num_processo_socorro=:num_processo_socorro;";
+        echo("<p>$sql</p>");
+
+        $result = $db->prepare($sql);
+        $result->execute([':num_processo_socorro' => $num_processo_socorro]);
         
         $db = null;
     }

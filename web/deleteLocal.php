@@ -1,7 +1,7 @@
 <html>
     <body>
 <?php
-    $nome_entidade = $_REQUEST['nome_entidade'];
+    $morada_local = $_REQUEST['morada_local'];
     try
     {
         $host = "db.ist.utl.pt";
@@ -10,12 +10,12 @@
         $dbname = $user;
         $db = new PDO("pgsql:host=$host;dbname=$dbname", $user, $password);
         $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-        
-        $sql = "DELETE FROM entidademeio WHERE nome_entidade=:nome_entidade;";
+
+        $sql = "DELETE FROM local WHERE morada_local=:morada_local;";
         echo("<p>$sql</p>");
 
         $result = $db->prepare($sql);
-        $result->execute([':nome_entidade' => $nome_entidade]);
+        $result->execute([':morada_local' => $morada_local]);
         
         $db = null;
     }
@@ -24,8 +24,8 @@
         echo("<p>ERROR: {$e->getMessage()}</p>");
     }
 ?>
-    <form action="sgi.php" method="post">
+        <form action="sgi.php" method="post">
             <p><input type="submit" value="Back"/></p>
-    </form>
+        </form>
     </body>
 </html>

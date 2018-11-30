@@ -14,12 +14,12 @@
         $dbname = $user;
         $db = new PDO("pgsql:host=$host;dbname=$dbname", $user, $password);
         $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-        $sql = "INSERT INTO eventoemergencia values(:num_telefone,:instante_chamada,:nome_pessoa,:morada_local,:num_processo_socorro);";
+        
+        $sql = "INSERT INTO eventoemergencia values(:num_telefone,:instante_chamada,:nome_pessoa,:morada_local,NULLIF('$num_processo_socorro','')::integer);";
         echo("<p>$sql</p>");
 
         $result = $db->prepare($sql);
-        $result->execute([':num_telefone' => $num_telefone,':instante_chamada' => $instante_chamada,':nome_pessoa' => $nome_pessoa,':morada_local' => $morada_local,':num_processo_socorro' => $num_processo_socorro]);
+        $result->execute([':num_telefone' => $num_telefone,':instante_chamada' => $instante_chamada,':nome_pessoa' => $nome_pessoa,':morada_local' => $morada_local]);
         
         $db = null;
     }
@@ -28,5 +28,8 @@
         echo("<p>ERROR: {$e->getMessage()}</p>");
     }
 ?>
+        <form action="sgi.php" method="post">
+            <p><input type="submit" value="Back"/></p>
+        </form>
     </body>
 </html>

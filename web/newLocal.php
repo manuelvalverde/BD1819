@@ -24,5 +24,8 @@
         echo("<p>ERROR: {$e->getMessage()}</p>");
     }
 ?>
+        <form action="sgi.php" method="post">
+            <p><input type="submit" value="Back"/></p>
+        </form>
     </body>
 </html>

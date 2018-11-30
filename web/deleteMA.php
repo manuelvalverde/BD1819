@@ -6,8 +6,8 @@
     try
     {
         $host = "db.ist.utl.pt";
-        $user ="ist424774";
-        $password = "mv1pnmdq2Av";
+        $user ="ist186468";
+        $password = "manuel123";
         $dbname = $user;
         $db = new PDO("pgsql:host=$host;dbname=$dbname", $user, $password);
         $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -25,5 +25,8 @@
         echo("<p>ERROR: {$e->getMessage()}</p>");
     }
 ?>
+    <form action="sgi.php" method="post">
+            <p><input type="submit" value="Back"/></p>
+    </form>
     </body>
 </html>
