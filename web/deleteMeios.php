@@ -12,7 +12,7 @@
         $db = new PDO("pgsql:host=$host;dbname=$dbname", $user, $password);
         $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-        $sql = "DELETE FROM meios WHERE num_meio=:num_meio AND nome_entidade=:nome_entidade;";
+        $sql = "DELETE FROM meio WHERE num_meio=:num_meio AND nome_entidade=:nome_entidade;";
         echo("<p>$sql</p>");
 
         $result = $db->prepare($sql);
