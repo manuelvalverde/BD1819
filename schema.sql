@@ -129,7 +129,7 @@ create table audita
 	 num_processo_socorro smallint not null,
 	 data_hora_inicio timestamp not null,
 	 data_hora_fim timestamp not null,
-	 data_auditoria date not null,  
+	 data_auditoria date not null,
 	 texto varchar(1000) not null,
 	 constraint pk_audita primary key(id_coordenador, num_meio, nome_entidade, num_processo_socorro),
 	 constraint fk_audita_coordenador foreign key(id_coordenador) references coordenador(id_coordenador),
@@ -146,3 +146,44 @@ create table solicita
 	 constraint pk_solicita primary key(id_coordenador, data_hora_inicio_video, num_camara),
 	 constraint fk_solicita_coordenador foreign key(id_coordenador) references coordenador(id_coordenador),
 	 constraint fk_solicita_video foreign key(data_hora_inicio_video, num_camara) references video(data_hora_inicio, num_camara));
+
+
+drop trigger if exists verifica_solicitacao_trigger on solicita;
+
+create or replace function verifica_solicitacao() returns trigger as $$
+	begin
+	if new.num_camara not in (select num_camara from audita natural join eventoemergencia natural join vigia) then
+		raise exception 'O coordenador % não pode socilitar este video.' , new.id_coordenador;
+	end if;
+	if new.id_coordenador not in (select id_coordenador from audita natural join eventoemergencia natural join vigia) then
+		raise exception 'O coordenador % não pode socilitar este video.' , new.id_coordenador;
+	end if;
+	return new;
+
+	End;
+$$ Language plpgsql;
+
+
+create trigger verifica_solicitacao_trigger before insert on solicita for each row execute procedure verifica_solicitacao();
+
+
+
+drop trigger if exists check_if_accionado on alocado;
+
+create or replace function check_accionado() returns trigger as $$
+begin
+    if new.num_meio not in (Select num_meio from meioapoio natural join acciona) then
+        raise exception 'O meio de apoio % da entidade % nao foi accionado.',new.num_meio,new.nome_entidade;
+    end if;
+    if new.nome_entidade not in (Select nome_entidade from meioapoio natural join acciona) then
+        raise exception 'O meio de apoio % da entidade % nao foi accionado.',new.num_meio,new.nome_entidade;
+    end if;
+    if new.num_processo_socorro not in (Select num_processo_socorro from meioapoio natural join acciona) then
+        raise exception 'O meio de apoio % da entidade % nao foi accionado.',new.num_meio,new.nome_entidade;
+    end if;
+    return new;
+    
+End;
+$$ Language plpgsql;
+
+create trigger check_if_accionado before insert on alocado for each row execute procedure check_accionado();
