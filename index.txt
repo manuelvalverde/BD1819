@@ -1,0 +1,26 @@
+a)
+1. Índice Hash, denso, desagrupado e primário na tabela vídeo com a chave de pesquisa <numCamara>.  
+
+Índice B+, esparso, agrupado, primário e composto na tabela vigia, com a chave de pesquisa a ser <numCamara, moradaLocal>.
+É primário porque contém a chave primária da tabela vigia e por conter a chave é também denso e desagrupado.
+
+
+2. Índice B+, esparso, agrupado e secundário na tabela transporta com a chave de pesquisa <numProcessoSocorro>.
+Como não contém a chave primária completa podem aparecer valores repetidos pelo que é útil que o índice
+seja agrupado e esparso. 
+
+Índice B+, esparso, agrupado e secundário na tabela eventoemergencia com a chave de pesquisa <numProcessoSocorro>.
+Não fizemos índice para o group by, pois assumimos que cada processo de socorro não terá muitos eventos de emergência, logo ter um índice para poucas entradas, não seria muito eficiente.
+
+
+b)
+1. Não é necessário criar o índice pois já existe através da primary key.
+
+2. CREATE CLUSTERED INDEX nProcessoSocorro ON transporta(numProcessoSocorro);
+--verificar se e preciso identificar b+
+
+
+SELECT tipo, ano, mes, COUNT(num_meios) AS TOTMEIOS
+FROM f_eventoemergencia NATURAL JOIN d_tempo NATURAL JOIN d_meios
+WHERE evento_id = 15
+GROUP BY GROUPING SETS((tipo, ano, mes), (tipo, ano), (tipo));
